@@ -1,0 +1,47 @@
+{
+  "name": "mobservable-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Mobservable + React project with JSX, ES6 compilation and hot code reloading",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "build": "webpack -p --config webpack.production.config.js",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mweststrate/mobservable-react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "mobservable",
+    "starter-kit"
+  ],
+  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mweststrate/mobservable/issues"
+  },
+  "homepage": "http://mweststrate.github.com/mobservable",
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "babel-polyfill": "6.3.13",
+    "eslint-plugin-react": "^2.3.0",
+    "mobservable-react-devtools": "^2.0.1",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.8.1",
+    "express": "^4.13.3",
+    "mobservable": "^1.2.0",
+    "mobservable-react": "^2.1.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
