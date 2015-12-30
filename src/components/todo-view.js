@@ -23,6 +23,7 @@ class TodoView extends Component {
     return (
       <div>
         <h1>Todos</h1>
+        <p> Now typing: <b>{todoState.current}</b> </p>
         <input type="text"
           value={todoState.current}
           onChange={this.currentChange.bind(this)}/>

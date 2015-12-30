@@ -8,7 +8,6 @@ timerState.resetTimer = function() {
   timerState.timer = 0;
 };
 
-
 setInterval(() => {
   timerState.timer += 1;
 }, 1000);
